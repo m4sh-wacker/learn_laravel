@@ -4,23 +4,44 @@
     <title>learn laravel</title>
 </head>
 
-<body>
+<body style="background-color: snow;">
     <h3>
-        <p style="text-align:center ;">artisam</p>
+        <p style="text-align:center ;">artisan</p>
         composer create-project laravel/laravel (name directory) ------- create and start laravel
-        <br/> php artisam -------- show switch laravel
-        <br/> php artisam serve -------- start server laravel
-        <br/> php artisam down ------- down server -> server 503 unavailable
-        <br/> php artisam up ------- up server -> run server
+        <br/> php artisan -------- show switch laravel
+        <br/> php artisan serve -------- start server laravel
+        <br/> php artisan down ------- down server -> server 503 unavailable
+        <br/> php artisan up ------- up server -> run server
         <hr/>
         <p style="text-align:center;">Route</p>
-        Routes-> web.php
+        Routes-> routes/web.php
         <br/> new Route
         <br/> Route::get('/', function () { return view('welcome'); });
         <br/> Route::get('/(url)', function () { return 'text'; }); -------> html-css
         <hr/>
+        <p style="text-align:center;">Migrations</p>
+        config path database-> .env
+        <br/> php artisan migrate ------- install/import database
+        <br/> php artisan migrate:status -------- status database
         <br/>
+        <hr>
+        <p style="text-align:center;">MVC</p>
+        <p style="text-align:center;">MVC structure</p>
+        <img style=" display: block; margin-left: auto;margin-right: auto;" width="400" height="250" src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2020/08/Image-from-the-Internet-MVC-Architecture.png" /><br/>
+        <br/> Model (M)-A model handles data used by the web application.
+        <br/> View (V)-A view helps to display data to the user.
+        <br/> Controller (C)-A controller interacts with the model to create data for the view.
+        <hr/>
+        <p style="text-align:center;">eloquent</p>
         <br/>
+        <hr/>
+        <p style="text-align:center;">Seeder</p>
+        <br/>
+        <hr/>
+        <p style="text-align:center;">API</p>
+        <br/>
+        <hr/>
+        <p style="text-align:center;">Ajax</p>
         <br/>
         <br/>
         <br/>
